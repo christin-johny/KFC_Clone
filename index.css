@@ -1,0 +1,246 @@
+
+body {
+  margin: 0;
+}
+.header {
+
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  padding-top: 20px;
+}
+.logo {
+  width: 70px;
+  height: 40px;
+  margin-left: 15%;
+}
+.menu {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-left: 5%;
+}
+.deals {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-left: 5%;
+}
+.signin {
+  width: 30px;
+  height: 20px;
+  margin-left: 600px;
+}
+.signin-text {
+  text-decoration: none;
+  color: black;
+}
+.cart {
+  margin: 0;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+.span {
+  font-size: xx-large;
+}
+
+.delivery {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+.delivery-text {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.order-button {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 120px;
+  margin-left: 30px;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+}
+.browse {
+  height: 120px;
+  align-content: center;
+  background-color: white;
+  padding-left: 130px;
+}
+.browse-text {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.items-main {
+  height: 700px;
+  background-color: white;
+  padding-left:100px;
+}
+
+.items {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+.food {
+  border-radius: 4px;
+  float: left;
+  width: 300px;
+  height: 265px;
+  background-color: rgb(236, 242, 242);
+  margin: 2%;
+}
+.food-text{
+  text-decoration: none;
+}
+.food-image {
+
+  border-radius: 4px;
+  width: 100%;
+  height: 220px;
+}
+.food-title {
+
+  text-align: center;
+  font-weight: 800;
+  font-size: 18px;
+  color: #202124;
+}
+
+.bottom-main {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-color: #202124;
+}
+
+.exclusive {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color:  #202124;
+}
+.exclusive-text1 {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.exclusive-text2{
+  text-decoration: none;
+  color:white;
+  font-size:20px;
+  margin-right: 20px;
+ 
+
+}
+.offers-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  background-color: #202124;
+}
+.button{
+  font-size: 30px;
+  height: 50px;
+  width:50px;
+  border: none;
+  border-radius: 25px;
+  margin: 30px;
+  border-left:3px;
+  background-color: rgb(191, 191, 205);
+}
+.offers{
+  height: 450px;
+  margin-right: 10px;
+  justify-items: center;
+  background-color:white;
+}
+.offers-img{
+  width:320px;
+  height:280px;
+}
+.head{
+margin:0px;
+color: red;
+}
+.h-link{
+  font-size: 25px;
+  margin-right: 25px;
+}
+.b-button{
+  width:150px;
+  height: 50px;
+  border-radius:25px ;
+  font-size: 20px;
+}
+.footer{
+  padding-top:100px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display:flex;
+  height: 200px;
+  justify-content: space-between;
+  background-color: #202124;
+}
+.logo{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+.kfcindia{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+.text{
+  color: #e8e7e7;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.store{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  cursor: pointer;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  background-color: #202124;
+}
+.copyright_text{
+  color: #e8e7e7;
+  font-size: 12px;
+  line-height: 24px;
+}
+.socialmedia{
+ padding-left: 300px;
+}
+.sm_icon{
+  cursor: pointer;
+}
